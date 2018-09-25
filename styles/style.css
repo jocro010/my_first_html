@@ -1,0 +1,60 @@
+/* body {
+  background-color: aqua;
+} */
+
+/* id starts with '#' and can be used only once per page */
+#body-style {
+  /* left-side is property and right-side is the value of that property */
+  background-color: green;
+  margin-left: 30px;
+}
+/* class starts with dot */
+.red {
+  color: #330000;
+}
+
+.blue {
+  color:#0C3955;
+}
+
+.text-style {
+  font-size: 24px;
+  background-color: white
+}
+
+* {
+  font-family: Montserrat, Tangerine, sans-serif;
+}
+
+#h1-style{
+  font-style: 42px;
+  font-style: italic;
+}
+
+footer{
+  font-weight: bolder;
+  color: white;
+}
+
+.uppercased{
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: right;
+}
+
+#nav-style ul li a{
+  text-decoration: none;
+}
+
+#nav-style ul li{
+  display: inline;
+}
+
+#nav-style{
+  text-align: right;
+}
+
+#nav-style ul li a:hover{
+  background-color: grey;
+  color: white
+}
